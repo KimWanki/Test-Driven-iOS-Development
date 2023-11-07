@@ -32,6 +32,7 @@ class FirstDemoTests: XCTestCase {
   }
 }
 
+// make custom assert function
 func DDHAssertEqual<A: Equatable, B: Equatable>(
   _ first: [A:B],
   _ second: [A:B],
