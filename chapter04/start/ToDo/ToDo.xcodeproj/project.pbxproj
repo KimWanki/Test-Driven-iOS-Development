@@ -19,6 +19,10 @@
 		D1021CFF2AFBC6FA00BD741F /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1021CFE2AFBC6FA00BD741F /* ToDoItem.swift */; };
 		D1021D022AFE661000BD741F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1021D012AFE661000BD741F /* Location.swift */; };
 		D1021D062AFE67B400BD741F /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1021D052AFE67B400BD741F /* LocationTests.swift */; };
+		D363ABDF2B0116E60049E582 /* ToDoItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363ABDE2B0116E60049E582 /* ToDoItemStore.swift */; };
+		D363ABE12B0117510049E582 /* ToDoItemStoreProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363ABE02B0117510049E582 /* ToDoItemStoreProtocolMock.swift */; };
+		D39661D72B0114910099A985 /* ToDoItemListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39661D62B0114910099A985 /* ToDoItemListViewControllerTests.swift */; };
+		D39661D92B0114C70099A985 /* ToDoItemsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39661D82B0114C70099A985 /* ToDoItemsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		D1021CFE2AFBC6FA00BD741F /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		D1021D012AFE661000BD741F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		D1021D052AFE67B400BD741F /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
+		D363ABDE2B0116E60049E582 /* ToDoItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStore.swift; sourceTree = "<group>"; };
+		D363ABE02B0117510049E582 /* ToDoItemStoreProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemStoreProtocolMock.swift; sourceTree = "<group>"; };
+		D39661D62B0114910099A985 /* ToDoItemListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemListViewControllerTests.swift; sourceTree = "<group>"; };
+		D39661D82B0114C70099A985 /* ToDoItemsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,8 @@
 				D1021CDC2AFA865500BD741F /* Info.plist */,
 				D1021CFE2AFBC6FA00BD741F /* ToDoItem.swift */,
 				D1021D012AFE661000BD741F /* Location.swift */,
+				D39661D82B0114C70099A985 /* ToDoItemsListViewController.swift */,
+				D363ABDE2B0116E60049E582 /* ToDoItemStore.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -123,6 +133,8 @@
 			children = (
 				D1021CE52AFA865500BD741F /* ToDoTests.swift */,
 				D1021D052AFE67B400BD741F /* LocationTests.swift */,
+				D39661D62B0114910099A985 /* ToDoItemListViewControllerTests.swift */,
+				D363ABE02B0117510049E582 /* ToDoItemStoreProtocolMock.swift */,
 			);
 			path = ToDoTests;
 			sourceTree = "<group>";
@@ -270,7 +282,9 @@
 				D1021CD32AFA865200BD741F /* ViewController.swift in Sources */,
 				D1021CCF2AFA865200BD741F /* AppDelegate.swift in Sources */,
 				D1021D022AFE661000BD741F /* Location.swift in Sources */,
+				D39661D92B0114C70099A985 /* ToDoItemsListViewController.swift in Sources */,
 				D1021CFF2AFBC6FA00BD741F /* ToDoItem.swift in Sources */,
+				D363ABDF2B0116E60049E582 /* ToDoItemStore.swift in Sources */,
 				D1021CD12AFA865200BD741F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D363ABE12B0117510049E582 /* ToDoItemStoreProtocolMock.swift in Sources */,
 				D1021D062AFE67B400BD741F /* LocationTests.swift in Sources */,
+				D39661D72B0114910099A985 /* ToDoItemListViewControllerTests.swift in Sources */,
 				D1021CE62AFA865500BD741F /* ToDoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,7 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6U5233X9SB;
+				DEVELOPMENT_TEAM = 629Q938CK5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -457,6 +473,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +481,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.wkkim.ios.ToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,7 +497,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6U5233X9SB;
+				DEVELOPMENT_TEAM = 629Q938CK5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -485,6 +505,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,6 +513,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.wkkim.ios.ToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,7 +531,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U5233X9SB;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.wkkim.ios.ToDoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,7 +551,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U5233X9SB;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.wkkim.ios.ToDoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -546,6 +570,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U5233X9SB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.wkkim.ios.ToDoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -564,6 +589,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U5233X9SB;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.wkkim.ios.ToDoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
